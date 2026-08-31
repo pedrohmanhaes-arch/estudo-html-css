@@ -240,7 +240,7 @@ Conforme o curso avançar, a estrutura será expandida para organizar os diferen
 
 ### Atualmente estudando
 
-<img src="https://skillicons.dev/icons?i=html,css,git,github" alt="Tecnologias atuais">
+<img src="https://skillicons.dev/icons?i=python,html,css,git,github" alt="Tecnologias atuais">
 
 ### Tecnologias previstas no curso
 
