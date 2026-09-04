@@ -12,9 +12,12 @@
             color: white;
             margin: 0;
             padding: 0;
+            border: 3px solid red;
         }
 
         .grid{
+            height: 100vh;
+            border: 3px solid blue;
             display: grid; 
             /*grid-template-columns: 200px 200px 200px;*/
             /* grid-template-columns:  40% 40% 200px; */
@@ -22,8 +25,14 @@
             /* grid-template-columns: 33.33% 33.33% 33.33%; */
             /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
             /* grid-template-columns: 1fr 2fr 2fr 2fr; */
+            /* grid-template-columns: 1fr 2fr auto; */
+            /* grid-template-columns: auto auto;*/
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* grid-template-rows:500px 200px 1fr 1fr ; */
+            /* grid-template-rows:500px 200px 1fr 1fr ; */
+            /* grid-template-rows: repeat(4, 1fr) ; */
+            grid-template-rows: 1fr 2fr 4fr 1fr;
             
-
         }      
 
         .grid>div{
