@@ -25,6 +25,9 @@ header{
 section#capa-conteudo{
     grid-area: capa-conteudo;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 section#capa-imagem{
@@ -46,8 +49,18 @@ section#capa-imagem > img, section#organizacao-imagem > img{
 section#organizacao-conteudo{
     grid-area: organizacao-conteudo;
     border: 1px solid red;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+footer{
+    background: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
 
 /*flex container*/
 nav{
@@ -77,6 +90,7 @@ ul a:hover{
     border: 2px solid #0b5cff;
     border-radius: 25px;
     padding: 5px 30px;
+    align-self: flex-start;
 }
 
 
@@ -93,3 +107,27 @@ ul a:hover{
 .botao.destaque:hover{
     background: #2a71ff;
 }
+
+/* Tipogragia */
+    body{
+        margin: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        
+    }
+
+    h2{
+        font-size: 1.8rem;
+    }
+
+    h3{
+        font-size: 1.2rem;
+    }
+
+    .texto-destaque{
+        color: #2d73ff ;
+    }
