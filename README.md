@@ -122,14 +122,14 @@ Projetos Full Stack
 
 ### 🔵 CSS — Próximos módulos
 
-* [ ] Flexbox
-* [ ] CSS Grid
-* [ ] Responsividade
-* [ ] Layouts mais complexos
+* [x] Flexbox
+* [x] CSS Grid
+* [x] Responsividade
+* [x] Layouts mais complexos
 
 ### 🟡 JavaScript
 
-* [ ] Fundamentos
+* [x] Fundamentos
 * [ ] DOM
 * [ ] Eventos
 * [ ] Funções
